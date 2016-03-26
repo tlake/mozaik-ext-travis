@@ -14,8 +14,9 @@ var travisRepo  = 'mozaik';
 var config = {
     env:  'prod',
 
-    host: '0.0.0.0',
-    port: process.env.PORT || 5000,
+    host:             '0.0.0.0',
+    port:             process.env.PORT || 5000,
+    useWssConnection: process.env.USE_SSL === 'true',
 
     theme: 'night-blue',
 
