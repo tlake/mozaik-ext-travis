@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import { ListenerMixin }               from 'reflux';
 import reactMixin                      from 'react-mixin';
 import moment                          from 'moment';
-import Mozaik                          from 'mozaik/browser';
+import Mozaik                          from '@tlake/mozaik/browser';
 
 
 class Repository extends Component {
